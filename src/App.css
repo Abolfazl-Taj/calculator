@@ -1,0 +1,10 @@
+body{
+  @apply flex justify-center bg-[#222]
+}
+
+
+.countiner{
+ @apply mt-[3rem] bg-[#111] w-[500px] h-[500px]
+  rounded shadow-2xl shadow-zinc-950 border
+   border-red-500/50 flex flex-col items-center p-2 font-sans text-[#fff]
+}

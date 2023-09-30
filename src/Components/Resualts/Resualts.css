@@ -1,0 +1,24 @@
+.resualts{
+ @apply bg-[#222] w-full text-[30px] p-2 font-black font-sans text-[#fff] rounded shadow shadow-[#fff] h-[60px] ;
+ line-height: 61px;
+}
+.BtnC{
+    @apply flex flex-col h-full justify-between bg-[#222] p-3 mt-[2rem] rounded w-full
+}
+.btns{
+    box-shadow:  1px 1px 10px 1px #222;
+ @apply flex w-full justify-around bg-[#111] p-2 rounded ;
+}
+.btns button{
+    @apply w-[100px] h-[50px] bg-[#555]  border border-[#888] rounded;
+    transition: all 0.25s;
+}
+.btns button:hover{
+    @apply bg-[#111]
+}
+button.clear{
+ @apply w-[200px]   bg-[#222] rounded 
+}
+button.awnser{
+ @apply w-[200px] bg-[#222] rounded 
+}
